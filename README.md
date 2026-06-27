@@ -1,8 +1,10 @@
 # SHANU Portfolio 🚀
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-shanu--portfolio--dev.vercel.app-10B981?style=for-the-badge&logo=vercel)](https://shanu-portfolio-dev.vercel.app/)
+
 > A premium, interactive, and highly optimized developer portfolio built with React, Vite, and modern animation libraries to showcase full-stack engineering skills, projects, and professional background.
 
-![Portfolio Preview](./public/projects/syncora.png) *(Note: Add actual screenshot link here after deployment)*
+![Portfolio Preview](./public/projects/syncora.png)
 
 ## ✨ Features
 - **Premium UI/UX:** Designed with a sophisticated "Obsidian & Gold" dark theme, utilizing glassmorphism and subtle gradients.
