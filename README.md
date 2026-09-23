@@ -4,12 +4,12 @@
     <strong>Dynamic Full-Stack Applications & Intelligent GenAI Solutions</strong>
   </p>
   <p align="center">
-    <a href="https://shanu-portfolio-dev.vercel.app/" target="_blank">
-      <img src="https://img.shields.io/badge/Live_Demo-shanu--portfolio--dev.vercel.app-10B981?style=for-the-badge&logo=vercel" alt="Live Demo" />
+    <a href="https://shanudev.vercel.app/" target="_blank">
+      <img src="https://img.shields.io/badge/Live_Demo-shanudev.vercel.app-10B981?style=for-the-badge&logo=vercel" alt="Live Demo" />
     </a>
   </p>
   <p align="center">
-    🌐 <strong>Live Website:</strong> <a href="https://shanu-portfolio-dev.vercel.app/">https://shanu-portfolio-dev.vercel.app/</a>
+    🌐 <strong>Live Website:</strong> <a href="https://shanudev.vercel.app/">https://shanudev.vercel.app/</a>
   </p>
 </div>
 
