@@ -245,7 +245,7 @@ const Hero = () => {
               className="text-lg md:text-xl max-w-xl mb-8 leading-relaxed font-normal"
               style={{ color: 'var(--text-secondary)' }}
             >
-              I architect scalable web applications, integrate AI into real-world products, and ship clean, production-ready code that solves meaningful problems.
+              I build Dynamic Full-Stack Applications and use GenAI to create Intelligent, AI-Powered Solutions. I am passionate about writing Clean Code, crafting intuitive User Experiences, and turning Great Ideas into Functional Products.
             </motion.p>
 
             {/* CTA & Socials Container */}

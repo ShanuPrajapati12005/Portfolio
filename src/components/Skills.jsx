@@ -69,9 +69,12 @@ const skillCategories = [
   {
     title: 'GenAI',
     skills: [
-      { name: 'Langchain', icon: <TbBrain />, color: '#1C3C3C' },
+      { name: 'LangChain', icon: <TbBrain />, color: '#1C3C3C' },
+      { name: 'LangGraph', icon: <TbPlugConnected />, color: '#F55036' },
+      { name: 'LLMs', icon: <TbBrain />, color: '#8B5CF6' },
       { name: 'Vector DB', icon: <FaDatabase />, color: '#7C3AED' },
-      { name: 'Agents', icon: <TbRobot />, color: '#10B981' },
+      { name: 'Graph DB', icon: <FaDatabase />, color: '#4285F4' },
+      { name: 'AI Agents', icon: <TbRobot />, color: '#10B981' },
     ],
   },
 ];

@@ -204,20 +204,13 @@ const About = () => {
                 />
 
                 <p className="mb-4 leading-relaxed text-[15.5px] font-medium" style={{ color: 'var(--text-primary)' }}>
-                  I'm a developer who believes every web app should have a purpose — not just pixels on a screen.
-                  I started with DSA to sharpen my thinking, got obsessed with building full-stack products,
-                  and somewhere along the way accidentally integrated AI into everything I touched.
+                  I am a Final Year B.Tech CSE Student, a 2x Hackathon Winner, and a dedicated Problem Solver. I develop Dynamic Full-Stack Applications using the MERN Stack and Next.js, and integrate GenAI to build Intelligent, AI-Powered Solutions. I am highly passionate about writing Clean Code, designing intuitive User Experiences, and turning Great Ideas into Functional Products.
                 </p>
                 <p className="mb-4 leading-relaxed text-[15px]" style={{ color: 'var(--text-secondary)' }}>
-                  My expertise lies in architecting robust full-stack applications using React, Node.js, and modern databases. 
-                  I am passionate about writing clean, maintainable code and optimizing system performance. Whether it's building 
-                  secure REST APIs, designing intuitive UI/UX, or integrating complex AI features, my focus is always on 
-                  delivering high-quality, scalable solutions that drive real business value.
+                  Beyond web development, I actively practice Data Structures and Algorithms in Java and have solved 600+ problems on LeetCode. I have also completed two internships focused on AI and MERN Stack development.
                 </p>
                 <p className="leading-relaxed text-[15px]" style={{ color: 'var(--text-secondary)' }}>
-                  Currently going deep into GenAI — Langchain, Vector Databases, Agentic workflows — not to
-                  put it on a resume, but because I genuinely want to build the next generation of
-                  intelligent web applications.
+                  I also develop applications using Generative AI and Agentic Workflows. I have practical knowledge of LLMs, LangChain, LangGraph, and Vector Databases, and I use these technologies to build the Next Generation of Intelligent Web Applications.
                 </p>
               </motion.div>
             </motion.div>

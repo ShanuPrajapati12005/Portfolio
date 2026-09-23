@@ -17,15 +17,26 @@ const projects = [
     borderColor: 'rgba(168, 85, 247, 0.3)',
   },
   {
-    title: 'EventSphere',
-    description: 'A premium event discovery & booking platform with fluid GSAP animations, glassmorphism UI, and real-time state management. Browse, filter, and book events with a buttery-smooth experience built for scale.',
-    image: '/projects/eventsphere.png',
-    tags: ['React', 'Tailwind', 'Zustand', 'GSAP', 'Node.js', 'Express'],
-    github: 'https://github.com/ShanuPrajapati12005/eventsphere-platform',
-    demo: '#',
+    title: 'PrintOS',
+    description: 'A cloud-connected B2B SaaS platform that automates local print shop workflows. Features real-time print queues, one-click agent setup, and allows students to print instantly via QR code without downloading any app.',
+    image: '/projects/printos.png',
+    tags: ['Next.js 14', 'TypeScript', 'Node.js', 'PostgreSQL (Neon)', 'Backblaze B2', 'Socket.io', 'Go'],
+    github: 'https://github.com/ShanuPrajapati12005/PrintOS',
+    demo: 'https://printosapp.vercel.app',
     gradient: 'from-emerald-500/10 to-teal-500/10',
     glowColor: 'rgba(16, 185, 129, 0.12)',
     borderColor: 'rgba(20, 184, 166, 0.3)',
+  },
+  {
+    title: 'WayPoint',
+    description: 'An AI-powered career readiness platform that generates adaptive, personalized roadmaps using Groq LLM. Features real-time AI career advisors, progress heatmaps, and intelligent skill mapping.',
+    image: '/projects/waypoint.png',
+    tags: ['React 18', 'Python', 'FastAPI', 'Supabase', 'Groq LLM', 'shadcn/ui', 'Pydantic'],
+    github: 'https://github.com/ShanuPrajapati12005/WayPoint',
+    demo: 'https://waypointwp.vercel.app',
+    gradient: 'from-blue-500/10 to-cyan-500/10',
+    glowColor: 'rgba(59, 130, 246, 0.12)',
+    borderColor: 'rgba(6, 182, 212, 0.3)',
   },
   {
     title: 'BRD Agent',
@@ -37,17 +48,6 @@ const projects = [
     gradient: 'from-violet-500/10 to-indigo-500/10',
     glowColor: 'rgba(139, 92, 246, 0.12)',
     borderColor: 'rgba(99, 102, 241, 0.3)',
-  },
-  {
-    title: 'Runtime Hacker Club',
-    description: 'Official frontend for the Runtime Hacker Club at IMS Engineering College — a fully responsive, type-safe club portal built with React, TypeScript, and Vite to showcase events, members, and achievements.',
-    image: '/projects/runtime-hc.png',
-    tags: ['React', 'TypeScript', 'Vite', 'Tailwind'],
-    github: 'https://github.com/ShanuPrajapati12005/runtime-hacker-club-frontend',
-    demo: '#',
-    gradient: 'from-orange-500/10 to-red-500/10',
-    glowColor: 'rgba(249, 115, 22, 0.12)',
-    borderColor: 'rgba(239, 68, 68, 0.3)',
   },
 ];
 
@@ -73,6 +73,23 @@ const tagInfo = {
   'GCP': { icon: <TbDatabase />, color: '#4285F4' },
   'TypeScript': { icon: <TbBrain />, color: '#3178C6' },
   'Vite': { icon: <TbBrain />, color: '#646CFF' },
+  'Next.js': { icon: <TbBrain />, color: '#000000' },
+  'Next.js 14': { icon: <TbBrain />, color: '#000000' },
+  'PostgreSQL': { icon: <TbDatabase />, color: '#336791' },
+  'PostgreSQL (Neon)': { icon: <TbDatabase />, color: '#00E599' },
+  'Socket.io': { icon: <TbPlugConnected />, color: '#010101' },
+  'Go': { icon: <TbBrain />, color: '#00ADD8' },
+  'Supabase': { icon: <TbDatabase />, color: '#3ECF8E' },
+  'Groq API': { icon: <TbApi />, color: '#F55036' },
+  'Groq LLM': { icon: <TbApi />, color: '#F55036' },
+  'Framer Motion': { icon: <TbBrain />, color: '#0055FF' },
+  'React 18': { icon: <FaReact />, color: '#61DAFB' },
+  'shadcn/ui': { icon: <TbBrain />, color: '#000000' },
+  'Pydantic': { icon: <TbBrain />, color: '#E92063' },
+  'Google OAuth': { icon: <TbPlugConnected />, color: '#4285F4' },
+  'JWT Auth': { icon: <TbPlugConnected />, color: '#FF0000' },
+  'Backblaze B2': { icon: <TbDatabase />, color: '#E13E28' },
+  'pdf-lib': { icon: <TbApi />, color: '#FF0000' },
 };
 
 const Projects = () => {
@@ -212,9 +229,20 @@ const Projects = () => {
                 {/* Content */}
                 <div className="p-6" style={{ background: 'var(--bg-card-solid)' }}>
                   <div className="flex items-start justify-between mb-3">
-                    <h3 className="text-lg font-bold" style={{ color: 'var(--text-primary)' }}>
-                      {project.title}
-                    </h3>
+                    <div className="flex items-center gap-3">
+                      <h3 className="text-lg font-bold" style={{ color: 'var(--text-primary)' }}>
+                        {project.title}
+                      </h3>
+                      {project.demo && project.demo !== '#' && (
+                        <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full border border-emerald-500/20 bg-emerald-500/10">
+                          <span className="relative flex h-1.5 w-1.5">
+                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                            <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500"></span>
+                          </span>
+                          <span className="text-[10px] font-bold text-emerald-500 tracking-wider">LIVE</span>
+                        </div>
+                      )}
+                    </div>
                     <div className="flex gap-1">
                       <a
                         href={project.github}
